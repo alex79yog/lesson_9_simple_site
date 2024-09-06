@@ -7,7 +7,9 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel=" preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
 
   <title>Symple site</title>
@@ -16,38 +18,54 @@
 <body>
   <!-- <header> -->
   <header class="header">
-    <section class="header">
+    <section class="container">
       <nav class="navbar">
         <ol class="navbar__list">
-          <li class="navbar__list--item"><a class="navbar__link" href="#"></a>ГЛАВНАЯ</li>
-          <li class="navbar__list--item"><a class="navbar__link" href="#"></a>ОБ АВТОРЕ</li>
-          <li class="navbar__list--item"><a class="navbar__link" href="#"></a>РАБОТЫ</li>
-          <li class="navbar__list--item"><a class="navbar__link" href="#"></a>ПРОЦЕСС</li>
-          <li class="navbar__list--item"><a class="navbar__link" href="#"></a>КОНТАКТЫ</li>
+          <li class="navbar__list--item">
+            <a class="navbar__link navbar__link--active" href="#">ГЛАВНАЯ</a>
+          </li>
+          <li class="navbar__list--item">
+            <a class="navbar__link" href="#">РАБОТЫ</a>
+          </li>
+          <li class="navbar__list--item">
+            <a class="navbar__link" href="#">ПРОЦЕСС</a>
+          </li>
+          <li class="navbar__list--item">
+            <a class="navbar__link" href="#">КОНТАКТЫ</a>
+          </li>
+          <li class="navbar__list--item">
+            <a class="navbar__link" href="#">ОБ АВТОРЕ</a>
+          </li>
         </ol>
       </nav>
 
       <div class="content">
         <h1 class="content__title">Дизайн и верстка</h1>
-        <div class="content__text">
+        <p class="content__text">
           Верстка веб-сторінок визначається як процес перетворення макету сайту в код, який відображає графічні
-          елементи у вікні браузера. Проте верстання не є лише простим перетворенням макету в сайт. Тут також
+          елементи у вікні браузера.
+          <!-- Проте верстання не є лише простим перетворенням макету в сайт. Тут також
           враховується різниця у відображенні елементів при різних розмірах пристроїв та визначається швидкість
-          завантаження сайту. Тому, коли хтось хоче замовити верстку сайту, спеціаліст має пояснити клієнтові про
+          завантаження сайту. Тому, коли хтось хоче замовити верстку сайту, спеціаліст має пояснити клієнтові про -->
           особливості того чи іншого способу створення веб-сторінок.
-          <div>
-            <a href="#">НАПИСАТЬ МНЕ</a>
-          </div>
-        </div>
+        </p>
+        <a class="content__link" href="#">НАПИСАТЬ МНЕ</a>
       </div>
-
-
     </section>
   </header>
 
-  <!-- about-me -->
+  <!-- about me -->
+  <main>
 
+    <section class="about">
+      <div class="container container--sm">
+        <h2 class="about__title">Обо мне </h2>
+        <p class="about__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне. Lorem Ipsum является стандартной
+        "рыбой" для текстов на латинице с начала XVI века.</p>
+        </div>
 
+    </section>
+  </main>
 
   <!-- numbers -->
 
